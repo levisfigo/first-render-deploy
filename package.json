@@ -1,15 +1,13 @@
+
 {
-  "name": "render-app",
+  "name": "node-render-app",
   "version": "1.0.0",
-  "description": "My Node.js application",
-  "main": "index.js",
+  "description": "Simple Node.js application deployed on Render",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^5.3.0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "express": "^4.21.0"
+  }
 }
